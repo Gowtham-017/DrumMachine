@@ -1,0 +1,56 @@
+
+.drum-machine {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .drum-pad {
+    display:table-footer-group;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .drum-pad:hover {
+    background-color:  grey;
+  }
+  .display{
+    font-size: larger;
+    color: aqua;
+    background-color: grey;
+    width:60px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 20px;
+    justify-content: center;
+  }
+  
+ .header{
+    color:black;
+    margin-top: 5px;
+ }
+ .conclu{
+    
+        width: 100%;
+        background-color: orange;
+        color:black;
+        text-align: center;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        bottom: 0;
+        font-size: large;
+        position: fixed;
+        display: flex;
+        padding: 1rem;
+    
+ }
